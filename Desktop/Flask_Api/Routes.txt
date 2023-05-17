@@ -1,0 +1,28 @@
+Doctor Routes
+
+@app.route("/doctor/adddetails", methods = ['POST'])
+@app.route("/doctor/getdetails")
+@app.route("/doctor/<int:doctor_ids>")
+@app.route("/doctor/delete/<int:doctor_ids>")
+@app.route("/doctor/<int:id>/update", methods = ['PUT'])
+
+
+Patient Routes
+
+@app.route("/patient/adddetails", methods = ['POST'])
+@app.route("/patient/getdetails")
+@app.route("/patient/<int:patient_ids>")
+@app.route("/patient/delete/<int:patient_ids>")
+@app.route("/patient/<int:id>/update", methods = ['PUT'])
+
+Appointment Routes
+
+@app.route("/create/appointment", methods = ['POST'])
+@app.route("/appointment/<int:id>/update", methods = ['PUT'])
+@app.route("/appointment/<int:id>/delete", methods = ['DELETE'])
+
+Medical Record Routes
+
+@app.route("/patient/create_medical_record", methods=['GET', 'POST'])
+@app.route("/patient/<int:id>/create_medical_record_update",methods=['PUT'])
+@app.route("/patient/<int:id>/create_medical_record_delete",methods=['DELETE'])
