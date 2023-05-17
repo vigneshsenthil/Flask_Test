@@ -1,0 +1,10 @@
+flask health api
+
+routes are mentiend in route.txt
+
+db models  DBModel/model.py handle in this location
+
+main.py file hold all routes functions
+
+using pip install -r requirements.txt to install all require packages
+
