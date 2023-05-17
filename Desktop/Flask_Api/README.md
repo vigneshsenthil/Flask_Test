@@ -1,6 +1,6 @@
 
 Flask Healthcare API
-Using Flask to build a Restful API Server with Swagger document.
+Using Flask to build a Restful API
 
 Integration with 
 Flask-SQLalchemy
@@ -8,9 +8,7 @@ Flask-SQLalchemy
 SQL ORM: Flask-SQLalchemy
 
 
-OAuth: Flask-OAuth
 
-ESDAO: elasticsearch , elasticsearch-dsl
 
 Installation
 Install with pip:
@@ -41,7 +39,7 @@ TESTING = False
 Builtin Configuration Values
 SERVER_NAME: the name and port number of the server.
 
-JSON_SORT_KEYS : By default Flask will serialize JSON objects in a way that the keys are ordered.
+
 
 
 
